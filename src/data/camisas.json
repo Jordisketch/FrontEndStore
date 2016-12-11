@@ -1,0 +1,14 @@
+[
+  {"nombre": "HTML5", "precio": "25", "imagen": "01.jpg"},
+  {"nombre": "CSS3", "precio": "25", "imagen": "02.jpg"},
+  {"nombre": "You're the CSS...", "precio": "25", "imagen": "03.jpg"},
+  {"nombre": "NodeJS", "precio": "25", "imagen": "04.jpg"},
+  {"nombre": "JavaScript", "precio": "25", "imagen": "05.jpg"},
+  {"nombre": "NodeJS (Oscura)", "precio": "25", "imagen": "06.jpg"},
+  {"nombre": "AngularJS", "precio": "25", "imagen": "07.jpg"},
+  {"nombre": "GitHub", "precio": "25", "imagen": "08.jpg"},
+  {"nombre": "Foundation", "precio": "25", "imagen": "09.jpg"},
+  {"nombre": "WordPress", "precio": "25", "imagen": "10.jpg"},
+  {"nombre": "Drupal", "precio": "25", "imagen": "11.jpg"},
+  {"nombre": "React", "precio": "25", "imagen": "12.jpg"}
+]

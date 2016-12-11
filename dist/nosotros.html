@@ -1,0 +1,393 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/foundation-icons.css">
+  </head>
+  <body>
+
+    <header id="inicio">
+      <div class="row align-right">
+        <div class="medium-4 columns text-center">
+          <img src="assets/img/logo.svg">
+        </div>
+        <div class="medium-4 columns">
+            <ul class="menu social-menu align-right">
+              <li><a href="#"><i class="fi-social-facebook"></i></a></li>
+              <li><a href="#"><i class="fi-social-twitter"></i></a></li>
+              <li><a href="#"><i class="fi-social-instagram"></i></a></li>
+            </ul>
+        </div>
+      </div>
+    </header>
+    
+    <div id="navegacion-principal" class="navegacion-principal">
+      <div class="responsive-menu" data-responsive-toggle="menu-principal" data-hide-for="medium">
+          <button class="menu-icon" type="button" data-toggle></button>
+          <div class="title-bar-title">Menú</div>
+      </div>
+    
+      <nav class="row">
+        <ul id="menu-principal" class="menu vertical expanded">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#productos">Diseños</a></li>
+          <li><a href="#testimoniales">Testimoniales</a></li>
+          <li><a href="#envia">Envía tu diseño</a></li>
+        </ul>
+      </nav>
+    </div>
+    
+    <div id="slider" class="row" data-magellan-target="slider">
+        <div class="column">
+          <div class="orbit" role="region" aria-label="Ultimas promociones" data-orbit
+          data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+              <ul class="orbit-container">
+                <button class="orbit-previous"><span class="show-for-sr">Slide Anterior</span>&#9664;&#xFE0E;</button>
+                <button class="orbit-next"><span class="show-for-sr">Slide Siguiente</span>&#9654;&#xFE0E;</button>
+                    <li class="is-active orbit-slide">
+                        <img class="orbit-image" src="assets/img/slide_1.jpg">
+                        <figcaption class="orbit-caption">Diseña tu camisa</figcaption>
+                    </li>
+                    <li class="orbit-slide">
+                        <img class="orbit-image" src="assets/img/slide_2.jpg">
+                        <figcaption class="orbit-caption">You´re the CSS to my HTML!</figcaption>
+                    </li>
+              </ul>
+    
+              <nav class="orbit-bullets">
+                <button class="is-active" data-slide="0">
+                  <span class="show-for-sr">Ir a primer slide</span>
+                  <span class="show-for-sr">Slide actual</span>
+                </button>
+                <button class="" data-slide="1">
+                  <span class="show-for-sr">Ir al segundo slide</span>
+                </button>
+    
+              </nav>
+    
+          </div> <!--.orbit-->
+        </div>
+    </div>
+    
+    <div id="nosotros" class="sobre-nosotros"  data-magellan-target="nosotros">
+      <h2 class=text-center>Sobre nosotros</h2>
+      <div class="row medium-unstack text-center">
+          <div class="small-6 column">
+              <i class="fi-checkbox"></i>
+              <h3>Increíble servicio</h3>
+              <p>Quisque viverra elit nec urna imperdiet facilisis. Praesent in consequat dolor, sit amet varius dolor. Etiam vitae tristique nibh.
+          </div>
+          <div class="small-6 column">
+              <i class="fi-clock"></i>
+              <h3>Gran rapidez</h3>
+              <p>Quisque viverra elit nec urna imperdiet facilisis. Praesent in consequat dolor, sit amet varius dolor. Etiam vitae tristique nibh.
+          </div>
+          <div class="small-6 column">
+              <i class="fi-css3"></i>
+              <h3>Para devs</h3>
+              <p>Quisque viverra elit nec urna imperdiet facilisis. Praesent in consequat dolor, sit amet varius dolor. Etiam vitae tristique nibh.
+          </div>
+          <div class="small-6 column">
+              <i class="fi-dollar"></i>
+              <h3>Mejor precio</h3>
+              <p>Quisque viverra elit nec urna imperdiet facilisis. Praesent in consequat dolor, sit amet varius dolor. Etiam vitae tristique nibh.
+          </div>
+      </div>
+    
+    </div>
+    
+    <div id="productos" class="row column"  data-magellan-target="productos">
+    <div class="nuestros-productos">
+      <h2 class="text-center">Nuestros Diseños</h2>
+          <div class="row">
+              <div class="small-12 medium-6 large-4 columns">
+                  <div class="camisa">
+                      <h4 class="text-center">HTML5</h4>
+                      <img src="assets/img/camisas/01.jpg" alt="HTML5">
+                      <div class="row text-center align-middle">
+                          <div class="column">
+                              <p class="precio">$ 25</p>
+                          </div>
+                          <div class="column">
+                                <a class="button" href="#">Comprar</a>
+                          </div>
+                      </div>
+                  </div> <!--.camisa-->
+              </div> <!--.small-6 & medium-4 -->
+              <div class="small-12 medium-6 large-4 columns">
+                  <div class="camisa">
+                      <h4 class="text-center">CSS3</h4>
+                      <img src="assets/img/camisas/02.jpg" alt="CSS3">
+                      <div class="row text-center align-middle">
+                          <div class="column">
+                              <p class="precio">$ 25</p>
+                          </div>
+                          <div class="column">
+                                <a class="button" href="#">Comprar</a>
+                          </div>
+                      </div>
+                  </div> <!--.camisa-->
+              </div> <!--.small-6 & medium-4 -->
+              <div class="small-12 medium-6 large-4 columns">
+                  <div class="camisa">
+                      <h4 class="text-center">You&#x27;re the CSS...</h4>
+                      <img src="assets/img/camisas/03.jpg" alt="You&#x27;re the CSS...">
+                      <div class="row text-center align-middle">
+                          <div class="column">
+                              <p class="precio">$ 25</p>
+                          </div>
+                          <div class="column">
+                                <a class="button" href="#">Comprar</a>
+                          </div>
+                      </div>
+                  </div> <!--.camisa-->
+              </div> <!--.small-6 & medium-4 -->
+              <div class="small-12 medium-6 large-4 columns">
+                  <div class="camisa">
+                      <h4 class="text-center">NodeJS</h4>
+                      <img src="assets/img/camisas/04.jpg" alt="NodeJS">
+                      <div class="row text-center align-middle">
+                          <div class="column">
+                              <p class="precio">$ 25</p>
+                          </div>
+                          <div class="column">
+                                <a class="button" href="#">Comprar</a>
+                          </div>
+                      </div>
+                  </div> <!--.camisa-->
+              </div> <!--.small-6 & medium-4 -->
+              <div class="small-12 medium-6 large-4 columns">
+                  <div class="camisa">
+                      <h4 class="text-center">JavaScript</h4>
+                      <img src="assets/img/camisas/05.jpg" alt="JavaScript">
+                      <div class="row text-center align-middle">
+                          <div class="column">
+                              <p class="precio">$ 25</p>
+                          </div>
+                          <div class="column">
+                                <a class="button" href="#">Comprar</a>
+                          </div>
+                      </div>
+                  </div> <!--.camisa-->
+              </div> <!--.small-6 & medium-4 -->
+              <div class="small-12 medium-6 large-4 columns">
+                  <div class="camisa">
+                      <h4 class="text-center">NodeJS (Oscura)</h4>
+                      <img src="assets/img/camisas/06.jpg" alt="NodeJS (Oscura)">
+                      <div class="row text-center align-middle">
+                          <div class="column">
+                              <p class="precio">$ 25</p>
+                          </div>
+                          <div class="column">
+                                <a class="button" href="#">Comprar</a>
+                          </div>
+                      </div>
+                  </div> <!--.camisa-->
+              </div> <!--.small-6 & medium-4 -->
+              <div class="small-12 medium-6 large-4 columns">
+                  <div class="camisa">
+                      <h4 class="text-center">AngularJS</h4>
+                      <img src="assets/img/camisas/07.jpg" alt="AngularJS">
+                      <div class="row text-center align-middle">
+                          <div class="column">
+                              <p class="precio">$ 25</p>
+                          </div>
+                          <div class="column">
+                                <a class="button" href="#">Comprar</a>
+                          </div>
+                      </div>
+                  </div> <!--.camisa-->
+              </div> <!--.small-6 & medium-4 -->
+              <div class="small-12 medium-6 large-4 columns">
+                  <div class="camisa">
+                      <h4 class="text-center">GitHub</h4>
+                      <img src="assets/img/camisas/08.jpg" alt="GitHub">
+                      <div class="row text-center align-middle">
+                          <div class="column">
+                              <p class="precio">$ 25</p>
+                          </div>
+                          <div class="column">
+                                <a class="button" href="#">Comprar</a>
+                          </div>
+                      </div>
+                  </div> <!--.camisa-->
+              </div> <!--.small-6 & medium-4 -->
+              <div class="small-12 medium-6 large-4 columns">
+                  <div class="camisa">
+                      <h4 class="text-center">Foundation</h4>
+                      <img src="assets/img/camisas/09.jpg" alt="Foundation">
+                      <div class="row text-center align-middle">
+                          <div class="column">
+                              <p class="precio">$ 25</p>
+                          </div>
+                          <div class="column">
+                                <a class="button" href="#">Comprar</a>
+                          </div>
+                      </div>
+                  </div> <!--.camisa-->
+              </div> <!--.small-6 & medium-4 -->
+              <div class="small-12 medium-6 large-4 columns">
+                  <div class="camisa">
+                      <h4 class="text-center">WordPress</h4>
+                      <img src="assets/img/camisas/10.jpg" alt="WordPress">
+                      <div class="row text-center align-middle">
+                          <div class="column">
+                              <p class="precio">$ 25</p>
+                          </div>
+                          <div class="column">
+                                <a class="button" href="#">Comprar</a>
+                          </div>
+                      </div>
+                  </div> <!--.camisa-->
+              </div> <!--.small-6 & medium-4 -->
+              <div class="small-12 medium-6 large-4 columns">
+                  <div class="camisa">
+                      <h4 class="text-center">Drupal</h4>
+                      <img src="assets/img/camisas/11.jpg" alt="Drupal">
+                      <div class="row text-center align-middle">
+                          <div class="column">
+                              <p class="precio">$ 25</p>
+                          </div>
+                          <div class="column">
+                                <a class="button" href="#">Comprar</a>
+                          </div>
+                      </div>
+                  </div> <!--.camisa-->
+              </div> <!--.small-6 & medium-4 -->
+              <div class="small-12 medium-6 large-4 columns">
+                  <div class="camisa">
+                      <h4 class="text-center">React</h4>
+                      <img src="assets/img/camisas/12.jpg" alt="React">
+                      <div class="row text-center align-middle">
+                          <div class="column">
+                              <p class="precio">$ 25</p>
+                          </div>
+                          <div class="column">
+                                <a class="button" href="#">Comprar</a>
+                          </div>
+                      </div>
+                  </div> <!--.camisa-->
+              </div> <!--.small-6 & medium-4 -->
+          </div>
+    
+        </div>
+    
+    </div>
+    
+    <div id="testimoniales" class="testimoniales"  data-magellan-target="testimoniales">
+        <h2 class="text-center">Testimoniales</h2>
+        <div class="row align-middle medium-unstack">
+            <div class="column small-order-2 medium-order-1">
+                <img src="assets/img/imagen_testimoniales.jpg">
+            </div>
+            <div class="column small-order-1 medium-order-2">
+                <div class="orbit" role="region" aria-label="Nuestros testimoniales" data-orbit>
+                    <ul class="orbit-container text-center">
+                          <li class="orbit-slide">
+                                <blockquote>
+                                      “Increible calidad, la velocidad y la exactitud son impresionantes!”
+                                      <cite>Juan Pablo</cite>
+                                </blockquote>
+                          </li>
+                          <li class="orbit-slide">
+                            <blockquote>
+                                  “Las mejores camisetas para desarrolladores están aquí!”
+                                  <cite>Miguel Angel</cite>
+                            </blockquote>
+                          </li>
+                    </ul>
+                </div> <!--.orbit-->
+            </div> <!--.column-->
+        </div>
+    
+    
+    </div>
+    
+    <div id="envia" class="envia"  data-magellan-target="envia">
+      <h2 class="text-center">Envia tu diseño</h2>
+      <div class="row align-center">
+          <div class="medium-8 columns">
+              <div class="form-container">
+                  <form>
+                      <div class="row align-center">
+                          <div class="medium-8 small-10 columns">
+                              <legend class="text-center">Podemos imprimir tu diseño, solo llena el formulario!</legend>
+                              <label>Nombre:
+                                  <input type="text" placeholder="Tu nombre">
+                              </label>
+                          </div>
+                      </div>
+                      <div class="row align-center">
+                          <div class="medium-8 small-10 columns">
+                              <label>Email:
+                                  <input type="email" placeholder="Tu email">
+                              </label>
+                          </div>
+                      </div>
+                      <div class="row align-center">
+                          <div class="medium-8 small-10 columns">
+                              <label>Mensaje:
+                                  <textarea placeholder="Tu mensaje"></textarea>
+                              </label>
+                          </div>
+                      </div>
+                      <div class="row align-center">
+                          <div class="medium-8 small-10 columns">
+                              <label for="subirArchivo" class="button">Subir archivo</label>
+                              <input type="file" id="subirArchivo" class="show-for-sr">
+                          </div>
+                          <div class="medium-8 small-10 columns">
+                              <input type="submit" class="button secondary" value="Enviar">
+                          </div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+    </div>
+    
+    <footer>
+        <div class="row align-spaced align-middle">
+            <div class="medium-4 small-12 small-order-2 medium-order-1 columns">
+                <p class="text-center medium-text-left">FrontEndStore 2016.</p>
+            </div>
+            <div class="medium-4 small-12 small-order-1 medium-order-2 columns">
+                <ul class="menu social-menu align-center">
+                  <li><a href="#"><i class="fi-social-facebook"></i></a></li>
+                  <li><a href="#"><i class="fi-social-twitter"></i></a></li>
+                  <li><a href="#"><i class="fi-social-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+
+    
+    <p>Estas en esta sección: nosotros</p>
+    
+    <h1>Página de Nosotros.</h1>
+    <p>Descripción de la empresa aquí.</p>
+    
+    <ul>
+        <li>Esto se repetirá 10 veces</li>
+        <li>Esto se repetirá 10 veces</li>
+        <li>Esto se repetirá 10 veces</li>
+        <li>Esto se repetirá 10 veces</li>
+        <li>Esto se repetirá 10 veces</li>
+        <li>Esto se repetirá 10 veces</li>
+        <li>Esto se repetirá 10 veces</li>
+        <li>Esto se repetirá 10 veces</li>
+        <li>Esto se repetirá 10 veces</li>
+        <li>Esto se repetirá 10 veces</li>
+    </ul>
+    
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

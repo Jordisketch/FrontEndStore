@@ -1,0 +1,25 @@
+<div id="productos" class="row column"  data-magellan-target="productos">
+<div class="nuestros-productos">
+  <h2 class="text-center">Nuestros Diseños</h2>
+      <div class="row">
+        {{#each camisas}}
+          <div class="small-12 medium-6 large-4 columns">
+              <div class="camisa">
+                  <h4 class="text-center">{{this.nombre}}</h4>
+                  <img src="assets/img/camisas/{{this.imagen}}" alt="{{this.nombre}}">
+                  <div class="row text-center align-middle">
+                      <div class="column">
+                          <p class="precio">$ {{this.precio}}</p>
+                      </div>
+                      <div class="column">
+                            <a class="button" href="#">Comprar</a>
+                      </div>
+                  </div>
+              </div> <!--.camisa-->
+          </div> <!--.small-6 & medium-4 -->
+        {{/each}}
+      </div>
+
+    </div>
+
+</div>

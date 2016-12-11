@@ -1,0 +1,199 @@
+body {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bb6cd1+0,4172b7+100 */
+  background: rgb(187,108,209); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(187,108,209,1) 0%, rgba(65,114,183,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(187,108,209,1) 0%,rgba(65,114,183,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(187,108,209,1) 0%,rgba(65,114,183,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bb6cd1', endColorstr='#4172b7',GradientType=0 ); /* IE6-9 */
+  background-attachment: fixed;
+}
+
+header {
+  padding: rem-calc(50 0);
+}
+h1, h2, h3, h4, h5 {
+  text-transform: uppercase;
+}
+
+
+div.navegacion-principal {
+  background-color: $primary-color;
+  margin-bottom: rem-calc(20);
+  width:100%;
+
+  &.fixed {
+    position: fixed;
+    left:0;
+    top:0;
+    z-index: 100;
+  }
+}
+
+.menu {
+  > li {
+    transition: all .3s ease;
+    &:hover {
+      background-color: $secondary-color;
+      a {
+        color: $primary-color;
+      }
+    }
+    > a {
+      justify-content: space-around!important;
+      text-transform: uppercase;
+      font-weight: bold;
+      color:$white;
+
+      &.active {
+        background-color: $secondary-color;
+        color:$primary-color;
+      }
+    }
+  }
+}
+
+ul.social-menu {
+  font-size: rem-calc(50);
+  > li {
+    margin-right: rem-calc(10);
+    &.active,
+    &:hover {
+      background-color: transparent;
+    }
+    a {
+      padding:0;
+      &:hover {
+        color:$secondary-color;
+      }
+
+    }
+  }
+}
+
+
+.responsive-menu {
+  padding: rem-calc(20 10);
+
+  .menu-icon {
+    //@include hamburger($color, $color-hover, $width, $height, $weight, $bars);
+    @include hamburger($secondary-color, $secondary-color, 38px, 30px, 5px, 3);
+  }
+  .title-bar-title {
+    color:$secondary-color;
+    margin-left: rem-calc(20);
+  }
+}
+
+div.orbit {
+  padding: rem-calc(20);
+  background-color: $primary-color;
+}
+
+div.sobre-nosotros {
+  margin-top: rem-calc(30);
+
+  i {
+    font-size: rem-calc(70);
+    margin: rem-calc(30 0);
+    display: block;
+  }
+  h3 {
+    margin-bottom: rem-calc(20);
+  }
+}
+
+
+div.nuestros-productos {
+  background-color: rgba($primary-color, .7);
+  padding: rem-calc(20);
+  margin: rem-calc(20 0);
+
+  h2 {
+    margin: rem-calc(20 0 30 0 );
+  }
+  div.camisa {
+    background-color: $white;
+    margin-bottom: rem-calc(30);
+    padding-top: rem-calc(5);
+
+    h4 {
+      margin-top: 10px;
+      background-color: $pink;
+      padding: rem-calc(10 0);
+    }
+    p.precio {
+      color:$primary-color;
+      font-size: rem-calc(40);
+      font-weight: bold;
+    }
+    .button {
+      @include button-style($secondary-color, darken($secondary-color, 5) , $primary-color);
+      font-size: rem-calc(20);
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.testimoniales {
+    margin-top: rem-calc(30);
+    .orbit {
+      background-color: $white;
+      border-radius: $global-radius;
+      margin-bottom: rem-calc(20);
+      @include breakpoint(medium) {
+          margin:0;
+      }
+      blockquote {
+        font-size: rem-calc(22);
+      }
+
+      cite {
+        font-weight: $global-weight-bold;
+      }
+    }
+}
+
+.envia {
+  margin-top: rem-calc(30);
+
+  .form-container {
+    background-color: $primary-color;
+    padding:rem-calc(30);
+    form {
+      background-color: $white;
+      margin-top: rem-calc(40);
+      padding: rem-calc(40 0 20 0);
+
+        legend {
+          font-size: rem-calc(25);
+          color:$primary-color;
+          text-transform: uppercase;
+          font-weight: $global-weight-bold;
+          margin-bottom: rem-calc(20);
+        }
+        label {
+          text-transform: uppercase;
+        }
+        .button {
+          text-transform: uppercase;
+          font-weight: $global-weight-bold;
+          border-radius: 0;
+          min-width: rem-calc(150);
+        }
+        .secondary {
+          color:$primary-color;
+        }
+    }
+  }
+}
+
+footer {
+  padding: rem-calc(30 0);
+  margin-top: rem-calc(40);
+  background-color: $primary-color;
+  p {
+    font-weight: $global-weight-bold;
+    margin:0;
+  }
+}
